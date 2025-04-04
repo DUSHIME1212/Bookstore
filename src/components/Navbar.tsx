@@ -15,11 +15,11 @@ const Navbar = () => {
           <div className="flex gap-6 items-center">
             <Link href="/" className="text-apple-dark hover:text-apple-blue transition-colors flex items-center gap-1">
               <Home size={16} />
-              <span>Home</span>
+              <span className='max-md:hidden'>Home</span>
             </Link>
             <Link href="/search" className="text-apple-dark hover:text-apple-blue transition-colors flex items-center gap-1">
               <Search size={16} />
-              <span>Browse</span>
+              <span className='max-md:hidden'>Browse</span>
             </Link>
           </div>
         </div>

@@ -48,12 +48,12 @@ const BookCard: React.FC<BookCardProps> = ({ book, index }) => {
             e.currentTarget.src = '/placeholder.svg';
           }}
         />
-          <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-2 text-white text-xs text-center">
+          <div className="absolute bottom-0 left-0 right-0  fr to-transparent p-2 text-white text-xs text-center">
             View Details
           </div>
         
       </div>
-      <h3 className="font-medium text-apple-dark line-clamp-2 text-lg">{title}</h3>
+      <h3 className="font-medium text-apple-dark line-clamp-2 text-shadow-2xs text-lg">{title}</h3>
       <p className="text-sm text-apple-gray mt-1">{authors}</p>
       
      
